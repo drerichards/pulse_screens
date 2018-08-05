@@ -10,17 +10,17 @@ const Login = () => {
         <Text style={[styles.logoText, styles.textStyle]}>Pulse</Text>
         <View style={styles.inputSectionStyle}>
             <Item>
-            <Input style={styles.textStyle} placeholder="email" />
-            <Icon style={styles.textStyle} active name="close" />
+                <Input style={styles.textStyle} placeholder="email" />
+                <Icon style={styles.textStyle} active name="close" />
             </Item>
             <Item>
-            <Input style={styles.textStyle} placeholder="password" />
-            <Icon style={styles.textStyle} active name="close" />
+                <Input style={styles.textStyle} placeholder="password" />
+                <Icon style={styles.textStyle} active name="close" />
             </Item>
             <View style={styles.forgotPswdBtn}>
-            <Button transparent>
-                <Text style={styles.buttonText}>Forgot Password?</Text>
-            </Button>
+                <Button transparent>
+                    <Text style={styles.buttonText}>Forgot Password?</Text>
+                </Button>
             </View>
         </View>
 
